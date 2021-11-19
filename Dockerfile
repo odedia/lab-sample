@@ -1,4 +1,4 @@
-FROM quay.io/eduk8s/base-environment:master
+FROM projects.registry.vmware.com/educates/base-environment
 
 COPY --chown=1001:0 . /home/eduk8s/
 
